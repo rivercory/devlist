@@ -1,6 +1,9 @@
 import './App.css';
 import { Link, Route, Routes } from 'react-router-dom';
+import { HiBars3 } from "react-icons/hi2";
 import Home from './pages/Home';
+import About from './pages/About';
+import List from './pages/List';
 
 function App() {
   return (
@@ -15,20 +18,22 @@ function App() {
           </div>
           <div className="dropdown dropdown-end">
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-              <div className="w-10 rounded-full">
-                <img alt="Tailwind CSS Navbar component" src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+              <div className="rounded-full">
+                <HiBars3 size={32} />
               </div>
             </label>
-            <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
-              <li><a>Profile</a></li>
-              <li><a>Settings</a></li>
-              <li><a>Logout</a></li>
+            <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52 ibmplexsans">
+              <li><Link to="/">홈</Link></li>
+              <li><Link to="/about">소개</Link></li>
+              <li><Link to="/list">리스트</Link></li>
             </ul>
           </div>
         </div>
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/list" element={<List />} />
       </Routes>
     </>
   );
