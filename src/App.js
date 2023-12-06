@@ -1,6 +1,6 @@
 import './App.css';
 import {Link, Route, Routes} from 'react-router-dom';
-import {HiBars3} from "react-icons/hi2";
+import {HiMenu} from "react-icons/hi";
 import Home from './pages/Home';
 import About from './pages/About';
 import List from './pages/List';
@@ -20,7 +20,7 @@ function App() {
                         <div className="dropdown dropdown-end">
                             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                                 <div className="rounded-full">
-                                    <HiBars3 size={32}/>
+                                    <HiMenu size={36}/>
                                 </div>
                             </label>
                             <ul tabIndex={0}
@@ -70,8 +70,9 @@ function App() {
                         <span className="btm-nav-label">Statics</span>
                     </button>
                 </div>
-                <a href="https://hyeonho64.vercel.app">
-                    <div className="absolute bg-gray-200 border-2 border-gray-300 text-xs m-4 p-2 hidden md:block rounded-md bottom-0 right-0">
+                <a href="https://hyeonho2010.vercel.app">
+                    <div
+                        className="absolute bg-gray-200 text-xs m-4 p-2 hidden md:block rounded-md bottom-0 right-0">
                         Copyright 2023. 강현호 all rights reserved.
                     </div>
                 </a>
