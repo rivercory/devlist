@@ -4,5 +4,17 @@
         "description": "GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
         "link": "https://github.com",
         "img": "https://i.ibb.co/5BTpTgF/GitHub.png"
+    },
+    {
+        "name": "GitLab",
+        "description": "From planning to production, bring teams together in one application. Ship secure code more efficiently to deliver value faster.",
+        "link": "https://gitlab.com",
+        "img": "https://i.ibb.co/t2DDCDd/GitLab.png"
+    },
+    {
+        "name": "Bitbucket",
+        "description": "From planning to production, bring teams together in one application. Ship secure code more efficiently to deliver value faster.",
+        "link": "https://bitbucket.org/",
+        "img": "https://i.ibb.co/xz66Tvw/Bitbucket.png"
     }
 ]

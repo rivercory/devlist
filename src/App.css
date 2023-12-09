@@ -2,3 +2,8 @@ html, body {
     width: 100vw;
     height: 100vh;
 }
+
+.tab:hover {
+    background: linear-gradient(to right, #862E9C, #AE3EC9);
+    color: white;
+}
