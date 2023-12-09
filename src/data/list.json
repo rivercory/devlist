@@ -13,8 +13,14 @@
     },
     {
         "name": "Bitbucket",
-        "description": "From planning to production, bring teams together in one application. Ship secure code more efficiently to deliver value faster.",
+        "description": "Bitbucket Cloud is a Git-based code and CI/CD tool optimized for teams using Jira.",
         "link": "https://bitbucket.org/",
         "img": "https://i.ibb.co/xz66Tvw/Bitbucket.png"
+    },
+    {
+        "name": "Azure DevOps",
+        "description": "Azure DevOps Services(이전의 Visual Studio Team Services)를 사용하여 더 스마트하게 계획하고, 더 효율적으로 공동 작업하고, 더 빠르게 배송하세요. Agile 도구, CI/CD 등을 받아 보세요.",
+        "link": "https://azure.microsoft.com/ko-kr/products/devops/",
+        "img": "https://i.ibb.co/y0JHHhT/Azure-Dev-Ops.png"
     }
 ]
