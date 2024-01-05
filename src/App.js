@@ -7,20 +7,17 @@ import List from './pages/List';
 
 function App() {
     return (
-        <div className="h-screen relative">
+        <div className="h-screen">
             <div className="h-full">
-                <div className="navbar bg-base-100 p-1 hidden md:flex">
+                <div className="w-auto navbar bg-base-100 border-2 rounded-full p-1 m-4 hidden md:flex">
                     <div className="flex-1"><Link to="/" className="btn btn-ghost"><img
                         src="./icons/devlist_transparent.svg" width="32" height="32"/></Link>
                     </div>
                     <div className="flex-none gap-2">
-                        <div className="form-control">
-                            <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto"/>
-                        </div>
                         <div className="dropdown dropdown-end">
                             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                                 <div className="rounded-full">
-                                    <HiMenu size={36}/>
+                                    <HiMenu size={32}/>
                                 </div>
                             </label>
                             <ul tabIndex={0}
@@ -53,7 +50,7 @@ function App() {
                         </svg>
                         <span className="btm-nav-label">Home</span>
                     </button>
-                    <button className="active">
+                    <button>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24"
                              stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
@@ -70,12 +67,6 @@ function App() {
                         <span className="btm-nav-label">Statics</span>
                     </button>
                 </div>
-                <a href="https://hyeonho2010.vercel.app">
-                    <div
-                        className="absolute bg-gray-200 text-xs m-4 p-2 hidden md:block rounded-md bottom-0 right-0">
-                        Copyright 2023. 강현호 all rights reserved.
-                    </div>
-                </a>
             </div>
         </div>
     );
