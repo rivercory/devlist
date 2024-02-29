@@ -9,7 +9,7 @@ function App() {
     return (
         <div className="h-screen">
             <div className="h-full">
-                <div className="w-auto navbar bg-base-100 border-2 rounded-full p-1 m-4 hidden md:flex">
+                <div className="w-auto navbar bg-base-100 p-1 hidden md:flex">
                     <div className="flex-1"><Link to="/" className="btn btn-ghost"><img
                         src="./icons/devlist_transparent.svg" width="32" height="32"/></Link>
                     </div>

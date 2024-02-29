@@ -13,7 +13,7 @@ const List = () => {
 
     return (
         <div className="w-full">
-            <div className="ml-4 mt-4 md:mt-0 mr-4 p-8 rounded-lg bg-primary text-white suit">
+            <div className="ml-4 mt-4 md:mt-0 mr-4 p-6 rounded-lg bg-primary text-white suit">
                 <p className="text-3xl">목록</p>
                 <p>개발에 도움을 주는 웹사이트들입니다.</p>
             </div>

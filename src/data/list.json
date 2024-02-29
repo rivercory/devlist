@@ -1,26 +1,51 @@
 [
     {
+        "id": "1",
         "name": "GitHub",
         "description": "GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
         "link": "https://github.com",
         "img": "https://i.ibb.co/5BTpTgF/GitHub.png"
     },
     {
+        "id": "2",
         "name": "GitLab",
         "description": "From planning to production, bring teams together in one application. Ship secure code more efficiently to deliver value faster.",
         "link": "https://gitlab.com",
         "img": "https://i.ibb.co/t2DDCDd/GitLab.png"
     },
     {
+        "id": "3",
         "name": "Bitbucket",
         "description": "Bitbucket Cloud is a Git-based code and CI/CD tool optimized for teams using Jira.",
         "link": "https://bitbucket.org/",
         "img": "https://i.ibb.co/xz66Tvw/Bitbucket.png"
     },
     {
+        "id": "4",
         "name": "Azure DevOps",
         "description": "Azure DevOps Services(이전의 Visual Studio Team Services)를 사용하여 더 스마트하게 계획하고, 더 효율적으로 공동 작업하고, 더 빠르게 배송하세요. Agile 도구, CI/CD 등을 받아 보세요.",
         "link": "https://azure.microsoft.com/ko-kr/products/devops/",
         "img": "https://i.ibb.co/y0JHHhT/Azure-Dev-Ops.png"
+    },
+    {
+        "id": "5",
+        "name": "Gitea",
+        "description": "Gitea - Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+        "link": "https://about.gitea.com/",
+        "img": "https://i.ibb.co/DKfXb8h/Gitea.png"
+    },
+    {
+        "id": "6",
+        "name": "Github Desktop",
+        "description": "Simple collaboration from your desktop",
+        "link": "https://desktop.github.com/",
+        "img": "https://i.ibb.co/MpMGn1N/Github-Desktop.png"
+    },
+    {
+        "id": "7",
+        "name": "Site For Developers",
+        "description": "\uD83C\uDF0F\uD83C\uDDF0\uD83C\uDDF7 개발자를 위한 북마크 모음집 ",
+        "link": "https://sfd.kro.kr",
+        "img": "https://camo.githubusercontent.com/8ba1a4cd276a3be212461286930d71a8d324d369b915d4c7dd0d4d08cd167659/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f63757272656e6a696e2f736974652d666f722d646576656c6f706572732f7265736f75726365732f6865616465725f626173652f323634783135372f6865616465725f626173652e737667"
     }
 ]
