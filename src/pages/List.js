@@ -33,12 +33,12 @@ const List = () => {
                 </a>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-4 p-4 gap-4 w-fit">
+            <div className="">
                 {filteredProjects.map(project => {
                     return (
                         <a href={project.link} target="_blank">
-                            <div className="card bg-base-100 card-bordered border-2">
-                                <figure><img className="p-6" src={project.img} alt="Shoes" /></figure>
+                            <div className="flex flex-row card m-4 bg-base-100 card-bordered border-2">
+                                <figure><img className="flex-none p-6" width="256" src={project.img} alt="Shoes" /></figure>
                                 <div className="card-body">
                                     <h2 className="card-title">
                                         {project.name}
